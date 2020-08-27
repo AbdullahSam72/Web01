@@ -1,0 +1,234 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 16px;
+
+  background-color: whitesmoke;
+  font-family: "Oxygen", sans-serif;
+
+  background: url("/image/BgImage/image6.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  background-position: center;
+
+  margin-bottom: 0px;
+}
+
+/** HEADER **/
+#header-nav {
+  border-radius: 0;
+  border: 0;
+}
+#TopHeader {
+  background-color: white;
+  height: 140px;
+  color: black;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+#TopHeader > div {
+  margin-left: 0px;
+}
+#HeaderBottom {
+  background-color: #5aa973;
+  opacity: 0.5;
+  height: 70px;
+  color: #fff;
+}
+.navbar-light .navbar-nav .active > .nav-link,
+.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+  font-family: arial, verdana, san-serif;
+}
+
+li:hover {
+  background-color: white;
+}
+#navContainer {
+  background-color: blue;
+}
+#logo-img {
+  /*background: url("/image/companyLogo/pdo-logo.jpg") no-repeat;
+  width: 400px;*/
+  height: 60px;
+  margin-left: 40px;
+  margin-top: 40px;
+}
+
+.navbar-header button.navbar-toggle,
+.navbar-header .icon-bar {
+  border: 1px solid #61122f;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -30px;
+}
+.nav-item {
+  font-weight: bold;
+  color: white;
+}
+#myNavBarContainer {
+  background-color: green;
+  color: white;
+  opacity: 0.8;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+}
+/* END HEADER */
+
+/*Common */
+header,
+#main-content1,
+#main-content2,
+#main-content3,
+#IndexFooter {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
+/*End of Common */
+
+/*Main Content 1*/
+
+/*End Main Content 1*/
+
+/*Main Content 2*/
+
+#IndexPart2 {
+  background-color: transparent;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-top: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  height: 410px;
+  position: relative;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.user_indexPart2 {
+  position: relative;
+  display: block;
+
+  color: black;
+  background-color: whitesmoke;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0 0 0 0;
+}
+.user_indexPart2 h5 {
+  font-size: 16px;
+  border-bottom: 1px solid grey;
+}
+.user_indexPart2 .img-fluid {
+  padding: 0px;
+  height: 100%;
+}
+.user_indexPart2 h3:hover {
+  transform: translate(0, -10px);
+}
+
+/*End Main Content 2*/
+
+/*Main Content 3*/
+#IndexPart3 {
+  background-color: white;
+  color: black;
+  margin-left: 0px;
+  margin-right: 0px;
+  height: 340px;
+  margin-bottom: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.usr_indexPart3 {
+  background-color: #d9d9d9;
+}
+
+.usr_indexPart3 h5 {
+  border-bottom: 1px solid black;
+  color: black;
+  font-size: 16px;
+}
+.usr_indexPart3:hover {
+  background-color: #f2f2f2;
+  color: black;
+  opacity: 0.5;
+}
+.usr_indexPart3 p {
+  color: #5aa973;
+}
+/*End Main Content 3*/
+
+/*footer*/
+footer {
+  margin-bottom: 140px;
+  height: 200px;
+  background-color: white;
+  position: relative;
+}
+#IndexFooter {
+  position: relative;
+}
+/*end of Footer*/
+
+/*about Us*/
+#about-us {
+  background-color: whitesmoke;
+  margin-left: 0px;
+  margin-right: 0px;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: relative;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+#about_us_Header {
+  margin-top: 40px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+}
+
+#p1 {
+  font-style: italic;
+  font-size: 16px;
+  text-align: justify;
+}
+#aboutusImage1 > {
+  height: 200px;
+  position: absolute;
+}
+#aboutus_text2 {
+  position: relative;
+}
+#aboutus_text2 p {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-style: italic;
+}
+.aboutus_Vision p {
+  margin-top: 40px;
+  text-align: center;
+  font-style: italic;
+  font-weight: bold;
+  border-radius: 5px black;
+
+  color: darkgrey;
+}
+.aboutus_Vision blockquote {
+  list-style-type: none;
+  font-style: italic;
+}
+.aboutus_Vision ul {
+  list-style-type: none;
+  font-style: italic;
+}
+.aboutus_Vision ul li {
+  text-align: center;
+  margin-right: 40px;
+  padding-left: 0px;
+  text-shadow: whitesmoke;
+}
