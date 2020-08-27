@@ -7,7 +7,7 @@ body {
   background-color: whitesmoke;
   font-family: "Oxygen", sans-serif;
 
-  background: url("image/BgImage/image6.jpg");
+  background: url("../image/BgImage/image6.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-size: cover;
